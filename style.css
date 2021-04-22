@@ -1,0 +1,181 @@
+.container{
+    height: 600px;
+    width: 1000px;
+    background-color: white;
+}
+*{
+    font-family: cursive;
+    text-decoration: none;
+    list-style: none;
+}
+.nav{
+    height: 50px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+h1{ 
+    color: white;
+    margin-left: 40px;
+
+}
+.nav-links{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+li{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#grey{
+    color: rgb(187, 186, 186);
+    
+}
+.active{
+    color: white;
+}
+#btn{
+    width: 100px;
+    border: solid 2px black;
+    box-shadow: black 3px 2px 1px;
+    background-color: rgb(14, 156, 167);
+    color: white;
+    margin-left: 300px;
+}
+.strip{
+    width: 296px;
+    height: 100px;
+    background-color: darkcyan;
+    border: solid 2px darkcyan;
+}
+.card{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border: gray solid 2px;
+    margin-left: 120px;
+    margin-top: 30px;
+    
+}
+.pic{
+    z-index: +1;
+    position: absolute;
+    bottom: 525px;
+    left: 150px;
+}
+.marker{
+    z-index: +2;
+    margin-top: 75px;
+    margin-left: 5px;
+    
+}
+.gear{ 
+    color: blue;
+
+}
+.link{
+    font-size: 10px;
+    color: rgb(98, 121, 252);
+    text-decoration: underline;
+    
+}
+
+.name{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    bottom: 480px;
+    left: 100px;
+}
+p{
+    font-size: 15px;
+}
+.cardtext{
+    position: absolute;
+    bottom: 350px;
+    left: 150px;
+}
+.education{
+    width: 300px;
+    height: 150px;
+    border: solid 2px gray;
+    margin-left: 120px;
+    margin-top: 30px;
+    text-align: left;
+}
+.stripb{
+    padding-left: 5px;
+    width: 297px;
+    height: 40px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    
+}
+h2{
+    font-size: 15px;
+}
+.rightbar{
+    position: absolute;
+    bottom: 440px;
+    left: 500px;
+    width: 240px;
+    height: 220px;
+    border: grey solid 2px;
+}
+.request{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 237px;
+    margin: 5px;
+}
+.stripc{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 240px;
+    height: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.774);;
+}
+
+#name{
+    font-size: 20px;
+
+    
+}
+.rightbar2{
+    position: absolute;
+    bottom: 40px;
+    left: 500px;
+    width: 240px;
+    height: 390px;
+    border: grey solid 2px;
+}
+.viewbox{
+    border-top: grey solid 2px;
+}
+.view{
+    color: blue;
+    font-size: 14px;
+    text-decoration: underline;
+
+}
+.connection{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 237px;
+    margin: 5px;
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(224, 224, 224);
+    border: 0;
+    width: min-content;
+}
