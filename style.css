@@ -6,13 +6,11 @@
     background-color: white;
 }
 
-*{
+body{
     font-family: cursive;
-    text-decoration: none;
-    list-style: none;
+    margin: -8px;
 }
 .nav{
-    height: 70px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -31,13 +29,19 @@ h1{
 li{
     margin-left: 20px;
     margin-right: 10px;
+    text-decoration: none;
+    list-style: none;
 }
 
 #grey{
+    text-decoration: none;
+    list-style: none;
     color: rgb(187, 186, 186);
     
 }
 .active{
+    text-decoration: none;
+    list-style: none;
     color: white;
 }
 #btn{
